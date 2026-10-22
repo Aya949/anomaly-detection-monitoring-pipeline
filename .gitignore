@@ -1,0 +1,59 @@
+﻿# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML experiment outputs
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Local generated files
+test_batch.json
+1
+17
+391
+4
+406
+43
+44
+7
+8
+dir
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Accidental empty files
+/1
+/17
+/391
+/4
+/406
+/43
+/44
+/7
+/8
+/dir
+
+dbt/profiles.yml
+
+airflow/logs/
+
+**/logs/

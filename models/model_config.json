@@ -1,0 +1,10 @@
+{
+  "best_threshold": 0.4611,
+  "contamination": 0.2596,
+  "n_estimators": 200,
+  "window_short": 6,
+  "window_long": 36,
+  "roc_auc": 0.7095,
+  "f1_tuned": 0.4041,
+  "run_id": "0ca4e91a8cbf4ac4b6f191eb8e2548f0"
+}

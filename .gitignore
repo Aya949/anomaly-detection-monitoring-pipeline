@@ -57,3 +57,6 @@ dbt/profiles.yml
 airflow/logs/
 
 **/logs/
+
+dbt/target/
+dbt/.user.yml

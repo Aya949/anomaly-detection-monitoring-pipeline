@@ -7,6 +7,7 @@ from pathlib import Path
 import pandas as pd
 import psycopg2
 import subprocess
+import os
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -19,7 +20,7 @@ DB_CONFIG = {
     "port"    : 5432,
     "dbname"  : "anomaly_db",
     "user"    : "airflow",
-    "password": "airflow",
+    "password": os.environ["POSTGRES_PASSWORD"],
 }
 
 DATA_PATH = "/opt/airflow/data/nab_aws_merged.csv"
